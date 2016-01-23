@@ -1,0 +1,34 @@
+{
+  "name": "mean-stack-skeleton",
+  "version": "0.0.1",
+  "description": "MEAN stack skeleton for full-stack rapid prototyping.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "latest",
+    "morgan": "latest",
+    "body-parser": "latest",
+    "method-override": "latest",
+    "cookie-parser": "latest",
+    "errorhandler": "latest",
+    "mongodb": "latest",
+    "mongoose": "latest"
+  },
+  "devDependencies": {
+    "jake": "latest",
+    "mocha": "latest",
+    "jshint": "latest"
+  },
+  "scripts": {
+    "test": "node jake_runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsonqin/mean-stack-skeleton.git"
+  },
+  "author": "Wilson Qin <wilson.qin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilsonqin/mean-stack-skeleton/issues"
+  },
+  "homepage": "https://github.com/wilsonqin/mean-stack-skeleton#readme"
+}

@@ -1,0 +1,4 @@
+E - break API resources and Public resources into two stubbed routers which still need to serve content.
+Add basic authentication scheme (passportjs)
+
+A - add AngularJS basic resources, with one end-to-end call to Express.
