@@ -4,14 +4,15 @@
   "description": "MEAN stack skeleton for full-stack rapid prototyping.",
   "main": "server.js",
   "dependencies": {
-    "express": "latest",
-    "morgan": "latest",
     "body-parser": "latest",
-    "method-override": "latest",
     "cookie-parser": "latest",
     "errorhandler": "latest",
+    "express": "latest",
+    "method-override": "latest",
     "mongodb": "latest",
-    "mongoose": "latest"
+    "mongoose": "latest",
+    "morgan": "latest",
+    "nodemon": "^1.8.1"
   },
   "devDependencies": {
     "jake": "latest",
@@ -19,7 +20,8 @@
     "jshint": "latest"
   },
   "scripts": {
-    "test": "node jake_runner.js"
+    "test": "node_modules/.bin/jake",
+    "start": "node_modules/.bin/nodemon server.js"
   },
   "repository": {
     "type": "git",

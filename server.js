@@ -65,10 +65,9 @@ app.use('/', publicRouter);
  */
 var apiRouter = express.Router();
   apiRouter.get('/', function(req,res){
-
+    res.json({ message: 'api home reached.' });
   });
   apiRouter.post('/', function(req,res){
-
   });
 
 app.use('/api', apiRouter);
